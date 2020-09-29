@@ -15,7 +15,7 @@ This lab will review downloading and uncompressing files, and it will get us set
 
 Write the command that you used to do this below:
 ----------
-
+~ (change to Home directory)
 
 
 ==========
@@ -23,7 +23,8 @@ Write the command that you used to do this below:
 
 Write the command that you used to do this - as well as its output - below :
 ----------
-
+~ (change to Home directory)
+bash: /home/john: Is a directory (Home directory output)
 
 
 ==========
@@ -31,7 +32,8 @@ Write the command that you used to do this - as well as its output - below :
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
-
+ls (list all directories)
+DIRECTORY  baz  folder1  folder2  mtec1002-lab-03  mtec1002-lab-03.tar  mtec1003  sample_files (directories output)
 
 
 ==========
@@ -88,15 +90,16 @@ Otherwise...
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
-
+ls (list directories)
+DIRECTORY  baz  folder1  folder2  mtec1002-lab-03  mtec1002-lab-03.tar  mtec1003  sample_files (directories output)
 
 ==========
 9.  What directories are in the mtec1002-lab-03 folder?
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
-
+cd mtec1002-lab-03 (change directory)
+books  logs  web (folders output)
 
 
 ==========
@@ -104,15 +107,17 @@ Write the command(s) that you used to determine this - as well as its output - b
 
 Write the command(s) (including going home) that you used to do this below:
 ----------
-
-
+cd ~ (change to Home directory)
+cd mtec1002-lab-03/books/science-fiction (change to this directory) 
+/home/john/mtec1002-lab-03/books/science-fiction (pwd output)
 
 ==========
 11.  Write the files that are in the science fiction directory below.
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
+ls (list files)
+pg84.txt  pg86.txt (files output)
 
 
 ==========
@@ -120,7 +125,9 @@ Write the command(s) that you used to do this - as well as its output - below:
 
 Write the command(s) that you used to do this below:
 ----------
-
+cd ~ (change to home directory)
+cd mtec1002-lab-03/books/science-fiction (change directory)
+/home/john/mtec1002-lab-03/books/science-fiction (pwd output)
 ==========
 OPTIONAL
 13. Immediately change back to the mtec1002-lab-03 folder with a single command using a *relative* path.
